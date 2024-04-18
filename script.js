@@ -6,6 +6,7 @@ function toggleMenu() {
 }
 
 
+//  That things is for  Typing Text
 const heading = document.querySelector('.typing');
 const text = heading .textContent; // Get the text content
 
@@ -17,7 +18,7 @@ function typeWrite(text, i = 0) {
     setTimeout(deleteText, 1000); // Call delete function after delay
   }
 }
-
+//  That things is for  Deleting Typing  Text
 function deleteText(i = text.length) {
   if (i > 1) {
     heading.textContent = text.slice(0, i - 1); // Remove one character
