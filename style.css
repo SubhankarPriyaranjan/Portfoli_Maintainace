@@ -176,6 +176,12 @@ section {
   margin: 0 0;
 }
 
+.section__pic-container:hover{
+ 
+    transform: scale(1.10);
+    box-shadow: 0 0 0px #0ef;
+}
+
 .section__text {
   flex: 1; /* Take remaining space */
   align-self: center;
