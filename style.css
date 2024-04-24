@@ -173,10 +173,17 @@ section {
   display: flex;
   height: 400px;
   width: 400px;
-  margin: auto 0;
+  margin: 0 0;
+}
+
+.section__pic-container:hover{
+ 
+    transform: scale(1.10);
+    box-shadow: 0 0 0px #0ef;
 }
 
 .section__text {
+  flex: 1; /* Take remaining space */
   align-self: center;
   text-align: center;
 }
@@ -429,4 +436,25 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* Text Css Type Animation */
+
+.typing {
+  font-size: 2.5rem;
+  overflow: hidden; / Ensures content is hidden initially /
+  border-right: .15em solid orange; / Creates the typing cursor /
+  white-space: nowrap; / Keeps text on a single line /
+  margin: 0 auto; / Centers the animation /
+  letter-spacing: .15em; / Adjusts spacing between letters (optional) /
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
