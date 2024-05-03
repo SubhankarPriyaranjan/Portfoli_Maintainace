@@ -173,10 +173,17 @@ section {
   display: flex;
   height: 400px;
   width: 400px;
-  margin: auto 0;
+  margin: 0 0;
+}
+
+.section__pic-container:hover{
+ 
+    transform: scale(1.10);
+    box-shadow: 0 0 0px #0ef;
 }
 
 .section__text {
+  flex: 1; /* Take remaining space */
   align-self: center;
   text-align: center;
 }
@@ -482,8 +489,11 @@ footer {
 footer p {
   text-align: center;
 }
+<<<<<<< HEAD
+=======
 <<<<<<< Updated upstream
 =======
+>>>>>>> 55c8df765823108be35109f46cb9b7f3a702a189
 
 /* Text Css Type Animation */
 
@@ -504,6 +514,10 @@ footer p {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
+<<<<<<< HEAD
+}
+=======
 }
 
 >>>>>>> Stashed changes
+>>>>>>> 55c8df765823108be35109f46cb9b7f3a702a189
