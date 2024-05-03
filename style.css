@@ -489,35 +489,23 @@ footer {
 footer p {
   text-align: center;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> 55c8df765823108be35109f46cb9b7f3a702a189
+
 
 /* Text Css Type Animation */
 
 .typing {
   font-size: 2.5rem;
-  overflow: hidden; / Ensures content is hidden initially /
-  border-right: .15em solid orange; / Creates the typing cursor /
-  white-space: nowrap; / Keeps text on a single line /
-  margin: 0 auto; / Centers the animation /
-  letter-spacing: .15em; / Adjusts spacing between letters (optional) /
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
 }
 
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
 }
-
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
-<<<<<<< HEAD
-}
-=======
-}
-
->>>>>>> Stashed changes
->>>>>>> 55c8df765823108be35109f46cb9b7f3a702a189
