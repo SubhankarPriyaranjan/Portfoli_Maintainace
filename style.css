@@ -22,7 +22,7 @@ p {
 /* TRANSITION */
 
 a,
-.btn {
+.btn ,.btn1{
   transition: all 300ms ease;
 }
 
@@ -241,14 +241,35 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
 
+ /* For Top Button  */
+.btn-color-3 ,btn-color-4{
+  border: rgb(71, 57, 199) 0.1rem solid;
+}
+
 .btn-color-1:hover,
 .btn-color-2:hover {
+  cursor: pointer;
+}
+
+ /* For Top Button  */
+ .btn-color-3,btn-color-4:hover {
   cursor: pointer;
 }
 
 .btn-color-1,
 .btn-color-2:hover {
   background: rgb(53, 53, 53);
+  color: white;
+}
+
+ /* For Top Button  */
+ .btn-color-3:hover {
+  background: rgb(93, 48, 197);
+  color: white;
+}
+
+.btn-color-4:hover {
+  background: rgb(0, 0, 0);
   color: white;
 }
 
@@ -260,14 +281,45 @@ section {
   background: none;
 }
 
+ /* For Top Button  */
+ .btn-color-3,btn-color-4 {
+  background: none;
+}
+
 .btn-color-2:hover {
   border: rgb(255, 255, 255) 0.1rem solid;
 }
+
+ /* For Top Button  */
+ .btn-color-3,btn-color-4:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+
+
 
 .btn-container {
   gap: 1rem;
 }
 
+/* //Github And LinkedIn Button  */
+
+.btn-container1 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.btn-container1 {
+  gap: 1rem;
+}
+
+.btn1 {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 0.50rem;
+  width: 8.5rem;
+  border-radius: 1rem;
+}
 /* ABOUT SECTION */
 
 #about {
@@ -437,6 +489,11 @@ footer {
 footer p {
   text-align: center;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> 55c8df765823108be35109f46cb9b7f3a702a189
 
 /* Text Css Type Animation */
 
@@ -457,4 +514,10 @@ footer p {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> Stashed changes
+>>>>>>> 55c8df765823108be35109f46cb9b7f3a702a189
